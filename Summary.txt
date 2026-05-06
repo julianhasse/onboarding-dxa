@@ -1,0 +1,39 @@
+Labcorp DxA Onboarding Process - Interactive Architecture Documentation
+
+Link: https://onboarding-dxa.vercel.app/
+
+Purpose: An interactive web-based documentation system that visualizes and tracks the Labcorp Diagnostic Assistant (DxA) customer onboarding process architecture.
+
+Key Features:
+
+1. Three View Modes:
+   - Current: Shows the existing manual process workflow
+   - Automated: Displays the proposed automated workflow with progress tracking
+   - Flowchart: Visual flowchart representation of the process
+
+2. 8-Phase Process Documentation (Phases 0-7):
+   - Pre-Requisites
+   - Customer Information Receipt
+   - Pre-Creation Validation
+   - DocuSign Document Creation
+   - Pre-Send Automation Queue
+   - DocuSign Configuration & Sending
+   - Post-Signature Automation
+   - Pipeline/CRM Entry
+
+3. Interactive Capabilities:
+   - Collapsible/expandable phase sections
+   - Real-time search with text highlighting
+   - Expand/collapse all controls
+   - Progress tracker for implementation status (in automated view)
+   - Keyboard shortcuts (ESC to collapse, Ctrl+E to expand)
+
+4. Process Classification:
+   - Color-coded badges for Manual, Automated, Validation, and API/Integration steps
+   - Detailed step information including dependencies, API calls, tools, and level of effort
+
+5. Export Functions:
+   - PDF export (via print functionality)
+   - CSV export with automation comparison metrics and ROI analysis ($180K+ annual savings, 8-10 month breakeven)
+
+6. Design: Modern UI using Tailwind CSS with the Geist font family, responsive layout, smooth animations, and accessibility features.
